@@ -2,56 +2,17 @@
 <html>
     <head>
         <title>Cooperativa ISB - Catering</title>
-        <!--edit padding top when title changes-->
+        <link rel="stylesheet" href="styles/coop_style.css">
         <link rel="stylesheet" href="styles/coop_catering_style.css">
-        <style>
-
-            body {                
-                padding-top: 120px;
-            }
-            .main-catering {
-                display: flex;
-                flex-direction: column;
-                padding-top: 20px;
-            }
-            
-            .riquadro {
-                display: flex;
-                flex-direction: row;
-                margin-bottom: 4px;
-                border: 1px solid darkgray;
-                margin-bottom: 20px;
-                width: 100%;
-                
-            }
-            .colonna-sx {
-                font-size: 25px;
-                font-weight: 500;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding: 8px 20px;
-
-            }
-            .colonna-dx {
-                display: flex;
-                flex-direction: column;
-                flex: 1;
-                font-size: 20px;
-                justify-content: space-around;
-                width: 100%;
-                padding: 8px;
-            }
-        </style>
     </head>
     <body>
+        <!--top banner-->
         <div class="heading">
-            
             <div class="title">
                 Cooperativa ISB - Catering
             </div>
-            
         </div>
+        <!--intro-->
         <h1>Lorem ipsum dolor sit amet</h1>
         <div style="font-size:20px">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -60,14 +21,17 @@
              in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
              cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
+        <!--main body of website-->
         <div class="main-catering">
+            <!--box #1 with picture and text inside-->
             <div class="riquadro">
-                <div class="colonna-sx">
+                <!--title and picture (left)-->
+                <div class="colonna-foto">
                     <div>TITOLO</div>
                     <img src="foto1.jpg">
                 </div>
-
-                <div class="colonna-dx">
+                <!--description (right)-->
+                <div class="colonna-testo">
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
@@ -76,25 +40,26 @@
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
                 </div>
             </div>
+            <!--box #2-->
             <div class="riquadro">
-                <div class="colonna-sx">
+                <div class="colonna-foto">
                     <div>TITOLO</div>
                     <img src="foto1.jpg">
                 </div>
-
-                <div class="colonna-dx">
+                <div class="colonna-testo">
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
                 </div>
             </div>
         </div>
+        <!--bottom banner-->
         <div class="bottom">
             <div class="contacts">
                 <div class="mail">
                     Mail: info@coopisb.com
                 </div>
                 <div class="phone">
-                    Mail: +39 1234567890
+                    Cell: +39 1234567890
                 </div>
             </div>
         </div>

@@ -1,40 +1,4 @@
-body {
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-.heading {
-    background-color: lightblue;
-    display: flex;
-    flex-direction: row;
-    position:fixed;
-    right: 0;
-    left: 0;
-    top: 0;                
-    
-}
-.title {
-    padding: 10px 0px;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    justify-content: center;
-    flex: 1;
 
-}
-.contacts {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: left;
-    padding-left: 8px;
-    
-}
-.mail {
-    padding-top: 12px;
-}
-.phone {
-    padding-bottom: 12px;
-}
 .main {
     display: flex;
     flex-direction: row;
@@ -78,13 +42,4 @@ body {
 .button-list button:hover {
     background-color: lightskyblue;
     cursor: pointer;
-}
-.bottom {
-    background-color: lightblue;
-    display: flex;
-    flex-direction: row;
-    position:fixed;
-    right: 0;
-    left: 0;
-    bottom: 0;
 }
